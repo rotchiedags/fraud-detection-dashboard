@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FraudShield Analytics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FraudShield Analytics Dashboard</h1>
+    </header>
+    <main>
+        <section class="stats">
+            <div class="card"><h3>Total Transactions</h3><p>45,201</p></div>
+            <div class="card warning"><h3>Flagged Alerts</h3><p>12</p></div>
+            <div class="card danger"><h3>Confirmed Fraud</h3><p>3</p></div>
+        </section>
+        <section class="table-container">
+            <h2>Recent Suspicious Activity</h2>
+            <table>
+                <tr><th>Time</th><th>Amount</th><th>Location</th><th>Risk Score</th></tr>
+                <tr><td>14:20</td><td>$2,500</td><td>London, UK</td><td class="high">98%</td></tr>
+                <tr><td>14:15</td><td>$45.00</td><td>New York, USA</td><td class="low">5%</td></tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
